@@ -1,0 +1,38 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Sort1 uses the least amount of time when soring sorted file contents(i.e sorted10000.txt & sorted5000.txt) but also uses the most amount of time when 
+
+sorting reversed file contents(i.e reversed10000.txt & reversed5000.txt). This feature proves that sort1 uses a unary sorting algorithm which works by bubbling the 
+
+largest digits to the very end of the array. Only this can explain why it would take the most amount of time if the largest digits were at the very beginning of the 
+
+array, and also why it would take the least amount of time if the largest digits were already at the end of the array. This property is similar to a demerit of the 
+
+Bubble Sort algorithm, because it works by bubbling the largest digits to the end of the array. This is how I know.
+
+sort2 uses: Merge Sort
+
+How do you know?: I know from the fact, sort2 uses the least amount of time to rearrange the contents of the files in comparison to the other two sorting algorithms. It used 
+
+the exact same amount of time to sort out files with alternate contents (i.e reversed5000.txt & sorted5000.txt, reversed10000.txt & sorted10000.txt). This proves 
+
+that sort2 uses a binary sorting algorithm which is a unique property of the Merge Sort.
+
+sort3 uses: Selection Sort
+
+How do you know?: By my observation, sort3 uses almost, if not the same amount of time to sort file contents of the same size or arrays of the same size
+
+(i.e sorted5000, random5000 & reversed5000). I also observed that the amount of time used to sort the integers depended little on the order they were in prior to their 
+
+sorting. Although the time expended to sort the integers did not have extremely small spans in special cases unlike in the other sorting algorithms, an average 
+
+amount of time was observed depending on the size of the array. I suspect that this may be due to a rather unique recursive behaviour among the sorting algorithms, 
+
+sort1 and sort2 spent lesser time when they did not have to sort the whole array over again but sort3 behaves in this manner maybe because it sorts the whole array a 
+
+certain number of times using a single algorithm. This would explain why the amount of time spent sorting depends greatly on the size of the array. 
+
+This feature is also similar to the manner of functionality of a special algorithm by the name, Selection Sort. With this I conclude my theory on this algorithm. 
+
+Thank you.
+
