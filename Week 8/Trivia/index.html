@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script src="./script.js" >
+            // Run imported JavaScript code.
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <p>
+                    <h3>
+                        Which of the following can be used for exposing localhost server networks to the public internet?
+                    </h3>
+                    <button id ="optA" onclick="check(event);">
+                        Docker
+                    </button>
+                    <button id = "optB" onclick="check(event);">
+                        Pagekite
+                    </button>
+                    <button id="optC" onclick="check(event);">
+                        iDARC
+                    </button>
+                    <button id="optD" onclick="check(event);">
+                        Git
+                    </button>
+                    <!-- Answer: Pagekite -->
+                 </p>
+                 <!--
+                <p>
+                    <h4 id="result">Correct!</h4>
+                </p>
+                -->
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                 <h3>
+                    In a Linux/Unix based environment, the contents of a directory can be listed using the command?
+                    <!-- Answer: ls -->
+                </h3>
+                <input id="field" type="text" oninput="awaitInput();" autofocus placeholder="answer">
+                <button id="submit" onclick="check(event);" >Enter</button>
+                <p>
+                    <!--
+                    <h4 id="response">Correct!</h4>
+                    -->
+                        <h4 id="correction">In a linux/Unix based environment, the contents of a directory are listed using the command "ls"</h4>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
